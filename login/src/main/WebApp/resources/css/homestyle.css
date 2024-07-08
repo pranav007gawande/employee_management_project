@@ -1,0 +1,164 @@
+/* header */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family :'Times New Roman', Times, serif
+}
+.nav-bar
+{
+    height: 60px;
+    width: 99vw;
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+a
+{
+        margin-top: 18px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+}
+.logo
+{
+    margin: 5px 20px;
+}
+.image
+{
+	margin: 15px 0px 15px 0px;
+}
+
+
+
+/* main-cointain */
+
+.nits
+{
+	margin: 10px 0px 80px 20px;
+	height: 400px;
+	width: 99vw;
+}
+.sol
+{
+	text-align: center;
+    width: 80%;
+    margin: 20px 0px 20px 150px;
+	background-color: orange;
+	
+}
+
+.main-cointain
+{
+    height: 1300px;
+    width: 99vw;
+    background-color: #444;
+    margin: 10px 0px 10px 0px;
+    color: #fff;
+    padding: 3px;
+   
+    /* display: flex; */
+   
+
+}
+ h1:hover {
+    text-decoration:underline ;
+}
+.heding
+{
+    /* display: block; */
+    margin-top: 55px;
+    text-align: center;
+    
+    
+}
+#emp1 H3:hover {
+    text-decoration: underline ;
+}
+#emp1
+{
+    height: 450px;
+    width: 31vw;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 40px 0px 5px 15px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    border: solid rgb(8, 8, 8);
+   
+}
+#img{
+    height: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+#emp_info
+{
+    margin: 20px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
